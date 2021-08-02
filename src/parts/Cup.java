@@ -35,6 +35,14 @@ public class Cup {
         }
     }
 
+    public List<Die> getDice() {
+        return dice;
+    }
+
+    public Die getDie(int index) {
+        return dice.get(index);
+    }
+
     @Override
     public String toString() {
         String out = "";
