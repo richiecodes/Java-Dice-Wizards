@@ -52,9 +52,11 @@ public class DiceWizards {
     }
 
     public void checkRoll() {
-        for(var die : players.get(0).manaPool.getDice()) {
+//        for(var die : players.get(0).manaPool.getDice()) {
+//
+//        }
 
-        }
+        //TODO -- add algorithm to check for certain rolls to earn extra mana
     }
 
     public void cls() {
