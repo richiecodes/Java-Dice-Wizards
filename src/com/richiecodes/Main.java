@@ -1,7 +1,6 @@
 package com.richiecodes;
 
-import parts.Cup;
-import parts.Die;
+import parts.Mana;
 
 public class Main {
 
@@ -19,5 +18,6 @@ public class Main {
 //        System.out.println(myCup + "<----- Added 3 dice");
 
         DiceWizards diceWizards = new DiceWizards();
+
     }
 }

@@ -2,13 +2,13 @@ package parts;
 
 import java.util.Random;
 
-public class Die {
+public class Mana {
 
     private int sides;
     private int value;
     Random rand;
 
-    public Die(int sides) {
+    public Mana(int sides) {
         this.sides = sides;
         rand = new Random();
 
@@ -21,5 +21,12 @@ public class Die {
 
     public int getValue() {
         return value;
+    }
+
+    @Override
+    public String toString() {
+        return "/```\\\n" +
+                "| " + getValue() + " |\n" +
+                "\\,,,/";
     }
 }
